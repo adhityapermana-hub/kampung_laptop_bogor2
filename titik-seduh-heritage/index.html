@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kampung Laptop Bogor - Laptop Second Berkualitas</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts untuk tampilan modern -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Hubungkan CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/logo/logo2.png">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#">Kampung Laptop <span>Bogor</span></a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#laptop" class="nav-link">Laptop</a></li>
+                <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
+                <li><a href="#lokasi" class="nav-link">Lokasi</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="https://wa.me/6282128647683?text=Halo%20Kampung%20Laptop%20Bogor,%20saya%20ingin%20konsultasi%20mengenai%20laptop" target="_blank" class="btn btn-primary btn-wa-nav">Hubungi Kami <i class="fab fa-whatsapp"></i></a>
+                <div class="social-icons-nav">
+                    <a href="https://wa.me/6282128647683" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/kampunglaptop_bogor" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://maps.app.goo.gl/your-link" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content fade-in">
+                <h1>Laptop Baru & Second Berkualitas di Bogor</h1>
+                <p>Kampung Laptop Bogor menyediakan berbagai laptop second dan baru dengan kualitas terbaik, harga terjangkau, dan garansi terpercaya.</p>
+                <div class="hero-buttons">
+                    <a href="#laptop" class="btn btn-primary">Lihat Laptop <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://wa.me/6282128647683?text=Halo%20Kampung%20Laptop%20Bogor,%20saya%20tertarik%20dengan%20laptop%20yang%20anda%20jual" target="_blank" class="btn btn-secondary">Chat WhatsApp <i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Laptop Modern">
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Keunggulan Section Start -->
+    <section class="keunggulan">
+        <div class="container">
+            <h2 class="section-title">Mengapa Memilih Kami?</h2>
+            <div class="cards-grid cards-grid-4">
+                <div class="card card-hover fade-in-up">
+                    <i class="fas fa-laptop fa-3x icon-blue"></i>
+                    <h3>Laptop Berkualitas</h3>
+                    <p>Semua laptop sudah dicek dan siap pakai.</p>
+                </div>
+                <div class="card card-hover fade-in-up">
+                    <i class="fas fa-tags fa-3x icon-blue"></i>
+                    <h3>Harga Terjangkau</h3>
+                    <p>Harga bersaing dan cocok untuk pelajar, mahasiswa, dan pekerja.</p>
+                </div>
+                <div class="card card-hover fade-in-up">
+                    <i class="fas fa-shield-alt fa-3x icon-blue"></i>
+                    <h3>Garansi Toko</h3>
+                    <p>Setiap pembelian mendapatkan garansi.</p>
+                </div>
+                <div class="card card-hover fade-in-up">
+                    <i class="fas fa-th-large fa-3x icon-blue"></i>
+                    <h3>Banyak Pilihan</h3>
+                    <p>Tersedia berbagai brand laptop populer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Keunggulan Section End -->
+
+    <!-- Laptop List Section Start -->
+    <section id="laptop" class="laptop-list">
+        <div class="container">
+            <h2 class="section-title">Koleksi Laptop Pilihan</h2>
+            <div class="cards-grid cards-grid-3" id="laptop-grid">
+                <!-- Data laptop akan diisi oleh JavaScript, tapi kita bisa isi statis dulu atau via JS -->
+                <!-- Untuk keperluan demo, kita isi statis, tapi JS akan mengambil data dari sini untuk fungsi WA otomatis -->
+                <div class="card laptop-card fade-in-up" data-nama="Dell Latitude 7490" data-spesifikasi="Intel Core i5, RAM 8GB, SSD 256GB" data-harga="Rp4.500.000">
+                    <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&auto=format&fit=crop&w=1032&q=80" alt="Dell Latitude">
+                    <div class="laptop-content">
+                        <h3>Dell Latitude 7490</h3>
+                        <p class="spesifikasi">Intel Core i5, RAM 8GB, SSD 256GB</p>
+                        <div class="harga">Rp4.500.000</div>
+                        <button class="btn btn-primary btn-order" data-nama="Dell Latitude 7490">Pesan Sekarang <i class="fab fa-whatsapp"></i></button>
+                    </div>
+                </div>
+                <div class="card laptop-card fade-in-up" data-nama="HP Elitebook 840 G5" data-spesifikasi="Intel Core i5, RAM 8GB, SSD 256GB" data-harga="Rp4.700.000">
+                    <img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="HP Elitebook">
+                    <div class="laptop-content">
+                        <h3>HP Elitebook 840 G5</h3>
+                        <p class="spesifikasi">Intel Core i5, RAM 8GB, SSD 256GB</p>
+                        <div class="harga">Rp4.700.000</div>
+                        <button class="btn btn-primary btn-order" data-nama="HP Elitebook 840 G5">Pesan Sekarang <i class="fab fa-whatsapp"></i></button>
+                    </div>
+                </div>
+                <div class="card laptop-card fade-in-up" data-nama="Lenovo ThinkPad X280" data-spesifikasi="Intel Core i5, RAM 8GB, SSD 256GB" data-harga="Rp4.900.000">
+                    <img src="https://images.unsplash.com/photo-1544731612-baeacb841a7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Lenovo ThinkPad">
+                    <div class="laptop-content">
+                        <h3>Lenovo ThinkPad X280</h3>
+                        <p class="spesifikasi">Intel Core i5, RAM 8GB, SSD 256GB</p>
+                        <div class="harga">Rp4.900.000</div>
+                        <button class="btn btn-primary btn-order" data-nama="Lenovo ThinkPad X280">Pesan Sekarang <i class="fab fa-whatsapp"></i></button>
+                    </div>
+                </div>
+                <div class="card laptop-card fade-in-up" data-nama="ASUS VivoBook" data-spesifikasi="Intel Core i3, RAM 8GB, SSD 256GB" data-harga="Rp4.200.000">
+                    <img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="ASUS VivoBook">
+                    <div class="laptop-content">
+                        <h3>ASUS VivoBook</h3>
+                        <p class="spesifikasi">Intel Core i3, RAM 8GB, SSD 256GB</p>
+                        <div class="harga">Rp4.200.000</div>
+                        <button class="btn btn-primary btn-order" data-nama="ASUS VivoBook">Pesan Sekarang <i class="fab fa-whatsapp"></i></button>
+                    </div>
+                </div>
+                <div class="card laptop-card fade-in-up" data-nama="Acer Aspire 5" data-spesifikasi="Intel Core i5, RAM 8GB, SSD 512GB" data-harga="Rp5.500.000">
+                    <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&auto=format&fit=crop&w=1032&q=80" alt="Acer Aspire">
+                    <div class="laptop-content">
+                        <h3>Acer Aspire 5</h3>
+                        <p class="spesifikasi">Intel Core i5, RAM 8GB, SSD 512GB</p>
+                        <div class="harga">Rp5.500.000</div>
+                        <button class="btn btn-primary btn-order" data-nama="Acer Aspire 5">Pesan Sekarang <i class="fab fa-whatsapp"></i></button>
+                    </div>
+                </div>
+                <div class="card laptop-card fade-in-up" data-nama="MacBook Air 2017" data-spesifikasi="Intel Core i5, RAM 8GB, SSD 128GB" data-harga="Rp6.000.000">
+                    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1026&q=80" alt="MacBook Air">
+                    <div class="laptop-content">
+                        <h3>MacBook Air 2017</h3>
+                        <p class="spesifikasi">Intel Core i5, RAM 8GB, SSD 128GB</p>
+                        <div class="harga">Rp6.000.000</div>
+                        <button class="btn btn-primary btn-order" data-nama="MacBook Air 2017">Pesan Sekarang <i class="fab fa-whatsapp"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Laptop List Section End -->
+
+    <!-- Testimoni Section Start -->
+    <section id="testimoni" class="testimoni">
+        <div class="container">
+            <h2 class="section-title">Apa Kata Pelanggan?</h2>
+            <div class="cards-grid cards-grid-3">
+                <div class="card card-hover fade-in-up">
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimoni-text">"Laptopnya bagus dan masih mulus, recommended banget!"</p>
+                    <h4>- Andi</h4>
+                </div>
+                <div class="card card-hover fade-in-up">
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimoni-text">"Harga murah tapi kualitas mantap, admin juga ramah."</p>
+                    <h4>- Siti</h4>
+                </div>
+                <div class="card card-hover fade-in-up">
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimoni-text">"Beli laptop second tapi rasanya seperti baru."</p>
+                    <h4>- Budi</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimoni Section End -->
+
+    <!-- Lokasi Section Start -->
+    <section id="lokasi" class="lokasi">
+        <div class="container">
+            <h2 class="section-title">Lokasi Toko</h2>
+            <div class="lokasi-container fade-in-up">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15846.226789681696!2d106.6818283!3d-6.5632201!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69db0024668deb%3A0xf95800120f2e79a2!2sKampung%20Laptop%20Bogor!5e0!3m2!1sid!2sid!4v1710000000000!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="alamat-info">
+                    <i class="fas fa-map-marker-alt fa-2x icon-blue"></i>
+                    <h3>Alamat Kami</h3>
+                    <p>Kampung Laptop Bogor, Bogor, Jawa Barat</p>
+                    <a href="https://maps.app.goo.gl/your-link" target="_blank" class="btn btn-outline">Buka di Google Maps <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Lokasi Section End -->
+
+    <!-- Kontak Section Start -->
+    <section id="kontak" class="kontak">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <div class="kontak-container fade-in-up">
+                <div class="kontak-item">
+                    <i class="fab fa-whatsapp fa-2x icon-green"></i>
+                    <div>
+                        <h3>WhatsApp</h3>
+                        <p><a href="https://wa.me/6282128647683" target="_blank">0821-2868-3</a></p>
+                    </div>
+                </div>
+                <div class="kontak-item">
+                    <i class="fab fa-instagram fa-2x icon-pink"></i>
+                    <div>
+                        <h3>Instagram</h3>
+                        <p><a href="https://instagram.com/kampunglaptop_bogor" target="_blank">@kampunglaptop_bogor</a></p>
+                    </div>
+                </div>
+                <div class="kontak-item">
+                    <i class="fas fa-map-marker-alt fa-2x icon-blue"></i>
+                    <div>
+                        <h3>Google Maps</h3>
+                        <p><a href="https://maps.app.goo.gl/your-link" target="_blank">Lihat Lokasi</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Kontak Section End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <h3>Kampung Laptop <span>Bogor</span></h3>
+                    <p>Kampung Laptop Bogor adalah tempat jual beli laptop second dan baru dengan kualitas terbaik di Bogor.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#laptop">Laptop</a></li>
+                        <li><a href="#tentang">Tentang</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Sosial Media</h4>
+                    <a href="https://instagram.com/kampunglaptop_bogor" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="https://wa.me/6282128647683x" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kampung Laptop Bogor. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Hubungkan JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
